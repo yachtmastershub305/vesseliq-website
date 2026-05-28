@@ -719,7 +719,7 @@ export default function BuildersPage() {
                 <path d="M3 12h4l2-6 4 12 2-6h6" />
               </svg>
             </div>
-            <span className="win-num">W · 01 — Visibility</span>
+            <span className="win-num">W · 01 · Visibility</span>
             <h3>Telemetry &amp; management insight on every hull.</h3>
             <p>
               Every boat you have delivered, still talking. See how systems perform, where alarms cluster, which captains run hard, which yards push fast turnaround.
@@ -737,7 +737,7 @@ export default function BuildersPage() {
                 <path d="M9 12l2 2 4-4" />
               </svg>
             </div>
-            <span className="win-num">W · 02 — Warranty</span>
+            <span className="win-num">W · 02 · Warranty</span>
             <h3>Failure patterns spotted before they are claims.</h3>
             <p>
               The intelligence layer sees what fails, on what hull class, at what hour count, in what waters. Issue an advisory before it is a warranty event.
@@ -755,7 +755,7 @@ export default function BuildersPage() {
                 <path d="M14 8h6v6" />
               </svg>
             </div>
-            <span className="win-num">W · 03 — Equipment</span>
+            <span className="win-num">W · 03 · Equipment</span>
             <h3>Pick on data. Stop picking on catalogs.</h3>
             <p>
               Which genset actually runs cleanest at idle on this hull class? Which HVAC vendor never gets a service ticket south of 30°? The fleet answers.
@@ -776,7 +776,7 @@ export default function BuildersPage() {
                 <path d="M9 6h6M9 18h6M6 9v6M18 9v6" />
               </svg>
             </div>
-            <span className="win-num">W · 04 — Collaboration</span>
+            <span className="win-num">W · 04 · Collaboration</span>
             <h3>One cloud where everything you picked talks.</h3>
             <p>
               The smart app on the hull is not stitched together at sea trial. Every supplier you specified collaborates in one platform by default, the moment they are installed.
@@ -800,7 +800,7 @@ export default function BuildersPage() {
       {/* BUILD CONSOLE */}
       <Section
         id="console"
-        eyebrow="B · 01 — Build Console"
+        eyebrow="B · 01 · Build Console"
         title={
           <>
             Live yard view. <span className="italic">Open it Monday.</span>
@@ -938,7 +938,7 @@ export default function BuildersPage() {
       {/* EQUIPMENT SELECTION */}
       <Section
         id="selection"
-        eyebrow="B · 02 — During the build"
+        eyebrow="B · 02 · During the build"
         title={
           <>
             Equipment selection becomes <span className="italic">a conversation about collaboration.</span>
