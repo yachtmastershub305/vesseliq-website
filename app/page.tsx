@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Hero } from "@/components/sections/Hero";
+import { HeroStatic } from "@/components/sections/HeroStatic";
 import { Section } from "@/components/sections/Section";
 import { CinePlate } from "@/components/sections/CinePlate";
 import { Reveal } from "@/components/sections/Reveal";
@@ -907,33 +907,15 @@ export default function PlatformPage() {
       <Rail items={RAIL_ITEMS} />
 
       {/* HERO */}
-      <Hero
+      <HeroStatic
         id="hero"
-        crumb={
-          <>
-            <span>VesselIQ</span>
-            <span style={{ color: "var(--ink-4)" }}>∕</span>
-            <span className="accent">Platform</span>
-          </>
-        }
-        headline={
-          <>
-            Every hull
-            <br />
-            smarter. <span className="italic">Every player sharper.</span>
-          </>
-        }
-        tag={<>Live on 142 hulls . 47 OEMs . since 2025</>}
-        sub={
-          <>
-            Two layers, one platform. <b>The hull record</b>, one per boat, owner authorized. <b>The intelligence layer</b>, patterns across the fleet, AI trained. The marine industry runs on both.
-          </>
-        }
-        actions={[
-          { href: "#cta", label: "Request access", variant: "primary" },
-          { href: "#layers", label: "See how it works", variant: "ghost" },
-        ]}
-        visual={<TwoLayerVisual />}
+        eyebrow="VesselIQ . Platform"
+        headline="Every hull smarter. Every player sharper."
+        sub="Two layers, one platform. The hull record, one per boat, owner authorized. The intelligence layer, patterns across the fleet, AI trained. The marine industry runs on both."
+        videoSrc="/assets/hero-video.mp4"
+        posterSrc="/assets/hero-poster.jpg"
+        ctaLabel="Request access"
+        ctaHref="#cta"
       />
 
       {/* TWO LAYERS — EXPLAINER */}
