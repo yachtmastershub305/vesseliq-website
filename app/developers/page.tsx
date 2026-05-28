@@ -265,7 +265,7 @@ export default function DevelopersPage() {
               </svg>
             </div>
             <span className="dev-win-num">W · 01 · AI</span>
-            <h3>Train on a marine corpus that doesn't exist anywhere else.</h3>
+            <h3>Train on a marine corpus that doesn&rsquo;t exist anywhere else.</h3>
             <p>
               Telemetry, voyages, failure events, service logs, equipment
               performance, across 142 hulls and growing. The training data
@@ -333,7 +333,7 @@ export default function DevelopersPage() {
             <h3>Go to market on the same rails the industry runs on.</h3>
             <p>
               If you ship something useful, every yard, every OEM, every owner
-              on VesselIQ can find it. The platform's network is your
+              on VesselIQ can find it. The platform&rsquo;s network is your
               distribution network.
             </p>
             <div className="stat">
@@ -477,7 +477,7 @@ export default function DevelopersPage() {
             <span className="key">Equipment</span>
             <span className="desc">
               A specific piece of hardware on the hull. Linked to a
-              manufacturer's published spec and to the Systems it participates
+              manufacturer&rsquo;s published spec and to the Systems it participates
               in.
             </span>
           </div>

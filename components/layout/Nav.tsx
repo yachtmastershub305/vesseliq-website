@@ -20,10 +20,16 @@ const NAV_ITEMS: NavItem[] = [
 export function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [prevPath, setPrevPath] = useState(pathname);
   const drawerRef = useRef<HTMLDivElement | null>(null);
 
-  // Close drawer on outside click, escape, or route change
-  useEffect(() => setOpen(false), [pathname]);
+  // Close the drawer on route change. Setting state during render is the
+  // pattern the React 19 hooks rules want here, not an effect.
+  if (prevPath !== pathname) {
+    setPrevPath(pathname);
+    if (open) setOpen(false);
+  }
+
   useEffect(() => {
     if (!open) return;
     function onClick(e: MouseEvent) {
