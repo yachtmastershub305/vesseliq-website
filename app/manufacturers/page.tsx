@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Hero } from "@/components/sections/Hero";
 import { Section } from "@/components/sections/Section";
 import { CinePlate } from "@/components/sections/CinePlate";
@@ -175,7 +174,7 @@ export default function ManufacturersPage() {
         tag={<>47 manufacturers · 142 hulls · signed specs live</>}
         sub={
           <>
-            <b>Failure patterns</b> spotted before claims. <b>Warranty exposure</b> modeled on real signal. Ship software in our cloud, or interop with what's already there. Your kit, finally talking back.
+            <b>Failure patterns</b> spotted before claims. <b>Warranty exposure</b> modeled on real signal. Ship software in our cloud, or interop with what&rsquo;s already there. Your kit, finally talking back.
           </>
         }
         actions={[
@@ -281,7 +280,7 @@ export default function ManufacturersPage() {
         eyebrow="Four things change"
         title={
           <>
-            Stop being a black box <span className="italic">on someone else's boat.</span>
+            Stop being a black box <span className="italic">on someone else&rsquo;s boat.</span>
           </>
         }
         lead="Publish your spec once. The platform handles delivery, integration, telemetry, and the long tail of what happens after the bolts are tightened."
@@ -329,7 +328,7 @@ export default function ManufacturersPage() {
               Sign with your manufacturer key. The spec becomes immutable, versioned, and traceable for the life of every unit. Every yard sees it the moment it lands.
             </p>
             <p style={{ marginTop: 14, color: "var(--ink-3)", fontSize: "13.5px" }}>
-              Power · weight · footprint · protocol · streams · alarms · certifications. The yard's dry run validates compatibility before the bolt turns.
+              Power · weight · footprint · protocol · streams · alarms · certifications. The yard&rsquo;s dry run validates compatibility before the bolt turns.
             </p>
           </Reveal>
 
@@ -374,7 +373,7 @@ export default function ManufacturersPage() {
         eyebrow="M · 02 · Collaboration"
         title={
           <>
-            Your kit, <span className="italic">talking to everyone else's.</span>
+            Your kit, <span className="italic">talking to everyone else&rsquo;s.</span>
           </>
         }
         lead="Publish your spec and your equipment can read and write to every other system on the boat, without a single bespoke integration, in any language, across any protocol."
